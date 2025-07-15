@@ -1,0 +1,129 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-image: url('../images/Space-Fighter/Space-Fighter-Graphic.png');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content-box {
+    background-color: #393939;
+    background-image: linear-gradient(to bottom, #202020, #101010);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 90%;
+    max-width: 1000px;
+    position: relative;
+    color: #e6e6e6;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.content-box h1 {
+    font-size: 2.5em;
+    color: #e6e6e6;
+    margin-bottom: 20px;
+    font-family: "Dongle", sans-serif;
+}
+
+.content-box p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #acacac;
+    font-family: "Dongle", sans-serif;
+    margin-bottom: 30px;
+}
+
+.home-button-link {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    display: block;
+    width: 50px;
+    transition: transform 0.2s ease-in-out;
+    z-index: 10;
+}
+
+.home-button {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.home-button-link:hover {
+    transform: scale(1.1);
+}
+
+.store-button-link {
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 25px);
+    display: block;
+    width: 50px;
+    transition: transform 0.2s ease-in-out;
+    z-index: 10;
+}
+
+.store-button {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.store-button-link:hover {
+    transform: scale(1.1);
+}
+
+.screenshot-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.app-screenshot {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+    flex-shrink: 0;
+}
+
+.app-screenshot:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 1000px) {
+    .content-box {
+        min-width: unset;
+        width: 95%;
+    }
+    .app-screenshot {
+        width: 120px;
+    }
+}
