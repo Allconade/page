@@ -127,3 +127,16 @@ body {
         width: 120px;
     }
 }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 1.1em;
+    }
+    .content-box {
+        padding: 15px;
+    }
+    .privacy-policy-text-container {
+        padding: 0 10px;
+        font-size: 1.1em;
+    }
+}
