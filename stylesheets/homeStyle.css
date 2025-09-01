@@ -27,13 +27,16 @@
         margin: 0 20px;
     }
 
+    .nav-button-container {
+        gap: 5px;
+    }
     .nav-button {
-        padding: 10px 20px;
-        font-size: 14px;
+        padding: 8px 15px;
+        font-size: 12px;
     }
 
     .title {
-        font-size: clamp(2em, 12vw, 140px);
+        font-size: clamp(1.5em, 10vw, 3em);
     }
 
     .under-title {
