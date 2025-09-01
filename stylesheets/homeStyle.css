@@ -21,3 +21,18 @@
     font-weight: 300;
     font-style: normal;
 }
+
+@media (max-width: 770px) {
+    .title-container {
+        left: 100px;
+        right: 100px;
+    }
+
+    .title {
+        font-size: clamp(2em, 12vw, 140px);
+    }
+
+    .under-title {
+        font-size: clamp(1em, 4vw, 1.5em);
+    }
+}

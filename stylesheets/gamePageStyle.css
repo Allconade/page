@@ -52,26 +52,6 @@ body {
     margin-bottom: 30px;
 }
 
-.home-button-link {
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    display: block;
-    width: 50px;
-    transition: transform 0.2s ease-in-out;
-    z-index: 10;
-}
-
-.home-button {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.home-button-link:hover {
-    transform: scale(1.1);
-}
-
 .store-button-link {
     position: absolute;
     bottom: 20px;
@@ -128,12 +108,13 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
     body {
         font-size: 1.1em;
     }
     .content-box {
         padding: 15px;
+        min-height: 600px;
     }
     .privacy-policy-text-container {
         padding: 0 10px;
