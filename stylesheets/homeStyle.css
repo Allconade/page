@@ -24,12 +24,8 @@
 
 @media (max-width: 770px) {
     .title-container {
-        margin: 0 20px;
-    }
-
-    .nav-button {
-        padding: 10px 20px;
-        font-size: 14px;
+        left: 100px;
+        right: 100px;
     }
 
     .title {
