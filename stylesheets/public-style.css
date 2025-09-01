@@ -40,12 +40,9 @@ body {
 
 @media (max-width: 770px) {
     .nav-button-container {
-        position: absolute;
         top: 20px;
         left: 50%;
         transform: translateX(-50%);
-        display: flex;
         justify-content: center;
-        gap: 10px;
     }
 }

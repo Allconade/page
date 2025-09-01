@@ -22,6 +22,30 @@
     font-style: normal;
 }
 
+.about-me-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    gap: 10px;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #151515;
+    color: #474747;
+    font-size: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    line-height: normal;
+    font-family: sans-serif;
+}
+
+.about-me-button:hover {
+    transform: scale(1.1);
+}
+
 @media (max-width: 770px) {
     .title-container {
         left: 100px;
@@ -34,5 +58,13 @@
 
     .under-title {
         font-size: clamp(1em, 4vw, 1.5em);
+    }
+
+    .about-me-button {
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        max-width: 60px;
     }
 }
