@@ -5,7 +5,7 @@ body, html {
 }
 
 body {
-    background-image: url('../images/Space-Fighter/Space-Fighter-Graphic.png');
+    background-image: url('../images/Space-Fighter/Space-Fighter-Graphic.webp');
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.8);
