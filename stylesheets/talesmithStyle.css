@@ -1,3 +1,5 @@
 body {
     background-image: url('../images/Talesmith/Talesmith-Graphic.webp');
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: revert;
 }
