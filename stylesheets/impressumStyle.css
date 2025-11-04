@@ -1,0 +1,11 @@
+.text-container {
+    text-align: center;
+    transition: transform 0.4s ease-in-out;
+}
+
+.small-text {
+    font-size: 2em;
+    color: #939393;
+    font-weight: 300;
+    font-style: normal;
+}
